@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+#page{
+    border: 1px solid #171717;
+    background-color: #171717;
+    
+    
+  
+    width: 763px;
+    height: 816px;
+    border-radius:20px ;
+    padding: 48px 38px 47px 40px;
+
+}
+
+/*Search*/
+
+.search{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+
+.search > input{
+    border: 1px solid #202020;
+    background-color: #202020;
+    padding: 24px 95px 24px 60px;
+    width: 80%;
+    border-radius:50px ;
+    font-size: 16px;
+    line-height: 16px;
+
+
+    
+    
+    
+
+}
+
+.filter{
+    width: 150px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: #242323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+
+}
+
+.filter p{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.filter span{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: #171717;
+    width: 24px;
+    height: 24px;
+    background-color: #F6CE0E;
+    border-radius: 50%;
+}
+
+
+/*Storm*/
+
+.storm{
+    width: 668px;
+    height: 359px;
+    background-color: #202020;
+   margin-top: 24px;
+    border-radius: 16px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.players{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.players .top{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: white;
+    margin: 32px 0 0 56px;
+   
+
+
+}
+
+.players-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    
+}
+
+
+
+.players-text p {
+    display: flex;
+    
+    gap: 56px;
+    margin: 32px 0 0 48px;
+}
+
+.players-text .text1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 52px;
+    color: #F6CE0E;
+}
+
+.players-text .text2 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: white;
+}
+
+
+.statistic{
+    margin: 24px 20px 25px 20px;
+    padding: 24px 20px 25px 20px;
+
+    background-color: #171717;
+    border-radius: 12px;
+    border: 1px solid #171717;
+
+}
+
+.statistic .statistic-text1{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.ratio{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    
+}
+
+.win,
+.kd,
+.dmg{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px 16px 0 0;
+}
+
+.ratio-text{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #606060;
+
+}
+
+.digital-text{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #F6CE0E;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Weapons&Power*/
+
+
+
+.weapons-power{
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.weapons{
+    width:322px;
+    height: 267px;
+    margin-top: 24px;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+
+.weapons-all{
+    display: flex;
+    gap: 64px;
+   
+    
+}
+
+.weapons-all p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: white;
+}
+
+
+.weapons-all .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 15px;
+    width: 141px;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.weapons-all .all > p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+
+
+}
+
+.weapons .spectre{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #F6CE0E;
+}
+
+
+.weapons .asault{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #606060;
+}
+
+
+.power{
+    width:322px;
+    height: 267px;
+    margin-top: 24px;
+    background-color: #202020;
+    
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.power .ability > p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: white;
+
+
+}
+
+.power .fire{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #F6CE0E;
+}
+
+
+.power .asault{  
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #606060;
+}
+
