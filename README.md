@@ -16,10 +16,10 @@ My repo where I collect the projects I have made independently or from Figma, I 
 ### Screenshot
 
 ![](image/Graysacele.png)
-![](image/Proje-7.1.png)
+![](image/proje-7.1.png)
 ![](image/Proje-7.2.png)
 ![](image/Freelancer.png)
-![](iamge/newage.png)
+![](image/newage.png)
 
 
 ### Links
