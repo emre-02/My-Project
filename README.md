@@ -4,7 +4,7 @@ My repo where I collect the projects I have made independently or from Figma, I 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+ 
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
